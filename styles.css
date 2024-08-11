@@ -1,0 +1,47 @@
+/* Place your CSS styles in this file */
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Gotu&family=Inknut+Antiqua:wght@300;800&family=Kalam:wght@300;400;700&family=Modak&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+/*
+मराठी साठी खालील फोन्ट फमिली वापर 
+font-family: 'Amita', cursive;
+font-family: 'Gotu', sans-serif;
+font-family: 'Inknut Antiqua', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Tiro Devanagari Sanskrit', serif;
+*/
+table, th, td {
+  border: 0.1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    /*font-family: "Source Sans Pro", sans-serif;*/
+    font-family: 'Amita', cursive;
+    font-weight: bolder;
+    background: #133c8b;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    /*font-family: "Source Sans Pro", sans-serif;*/
+    font-family: 'Amita', cursive;
+    font-weight: bolder;
+    background: #133c8b;
+}
+
+.roomname {
+  font-size: 15px;
+  text-align: center;
+}
+
+/*body{background-image: url('');
+    image-rendering: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    }*/
+.centersmall { font-size: 20px; font-family: 'Amita', cursive; sans-serif; text-align: center; color: #FF7777;}
+#shlok {font-weight: bolder}
+.center { font-size: 12px; text-align: center;}
+

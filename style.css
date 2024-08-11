@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Gotu&family=Inknut+Antiqua:wght@300;800&family=Kalam:wght@300;400;700&family=Modak&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+
+/*
+मराठी साठी खालील फोन्ट फमिली वापर 
+font-family: 'Amita', cursive;
+font-family: 'Gotu', sans-serif;
+font-family: 'Inknut Antiqua', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Tiro Devanagari Sanskrit', serif;
+*/
+
+
+h4 {
+	text-align: center;
+	color: black;
+	background: #e68a007c;
+	padding: 5px;
+}
+
+h3 {
+	font-weight: bolder;
+    text-align: center;
+	color: black;
+	background: #e68a007c;
+	padding: 5px;
+}
+
+.column1{
+	width: 48%;
+	float: left;
+}
+
+.column2 {
+	width: 48%;
+	float: right;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	color: white;
+	background: #133c8b;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	box-shadow: 2px 2px 2px gray;
+	text-align: center;
+	
+}
+
+h3 {
+	color: white;
+	background: #133c8b;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	box-shadow: 2px 2px 2px gray;
+	text-align: center;
+	
+}
+
+.item  {
+	border-radius: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 3px dashed #ff6666;
+  
+
+}
+
+/*.photo {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+}*/
+.photo {
+	box-shadow: 4px 4px 4px gray;
+	transform: rotate(0deg);
+	height:200px;
+	width:200px;
+	}
+
+.photoupakram {
+    position: absolute;
+	box-shadow: 4px 4px 4px gray;
+	transform: rotate(0deg);
+	height: 300px; width: 600px;
+}
+
+.photoHomePage {
+	box-shadow: 4px 4px 4px gray;
+	transform: rotate(0deg);
+	height: 100%;
+	width: 100%;
+}
+
+#robots {
+  font-size: 30px;
+  color: white;
+  background: linear-gradient(green, yellow, orange, red, purple, blue);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#greenrobot {
+  height: 100px;
+  position: absolute;
+  left: -200px;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% { left: -200px }
+  50% { left: 0 }
+  100% { left: -200px }
+}
+
+#spacerobot {
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  animation: across 5s infinite alternate;
+}
+
+@keyframes across {
+  0% { left: 0 }
+  100% { left: 90% }
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.roomname {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*for map of page 6 imdex5.html*/
+#map{background:white;}
+.containermap {
+  position: relative;
+  text-align: center;
+  color: Black;
+  
+}
+
+.bottom-left {
+  position: relative;
+  bottom: 20%;
+  left: 25%;
+  transform: rotate(40deg);
+}
+
+.bottom-left2 {
+  position: relative;
+  bottom: 30%;
+  left: 55%;
+    transform: rotate(45deg);
+
+  
+}
+
+.bottom-left1 {
+  position: relative;
+  bottom: 30%;
+  left: 40%;
+  
+}
+
+.top-left {
+  position: relative;
+  top: 50%;
+  left: 75px;
+  transform: rotate(90deg);
+}
+
+.top-center {
+  position: relative;
+  top: 8%;
+  left: 50%;
+}
+
+.top-center1 {
+  position: relative;
+  top: 12%;
+  left: 30%;
+}
+
+.top-right {
+  position: relative;
+  top: 19%;
+  right: 27%;
+  transform: rotate(90deg);
+}
+
+.top-right1 {
+  position: relative;
+  top: 52%;
+  right: 7%;
+}
+
+.top-right2 {
+  position: relative;
+  top: 23%;
+  right: 10%;
+  transform: rotate(45deg);
+
+}
+
+.top-right3 {
+  position: relative;
+  top: 40%;
+  right: 23%;
+	transform: rotate(90deg);
+}
+
+.top-right4 {
+  position: relative;
+  top: 40%;
+  right: 35%;
+	transform: rotate(90deg);
+}
+
+
+.bottom-right {
+  position: relative;
+  bottom: 25%;
+  right: 23%;
+    transform: rotate(90deg);
+
+}
+
+.centered {
+  position: relative;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.roomname {
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
+
+/*from styles.css */
+
+body {		
+  background-color: linear-gradient(to bottom right,navajowhite,blue);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+font-family:Verdana;}
+
+table, th, td {
+  border: 0.1px solid black;
+}
+
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    /*font-family: "Source Sans Pro", sans-serif;*/
+    font-family: 'Amita', cursive;
+    font-weight: bolder;
+    background: #133c8b;
+}
+
+.centerBold {font-size: 20px; font-weight: bolder; font-family: 'Gotu', sans-serif; text-align: center; color: #FF7777;}
+
+.center { font-size: 12px; text-align: center;}
+
